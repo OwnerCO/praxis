@@ -1,0 +1,34 @@
+{
+  "name": "PRABATH-MD (2.1.2)",
+  "description": "PRABATH-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "prabath-md"],
+  "success_url": "/",
+
+  "env": {
+    "BOT_NUMBER": {
+      "description": "51960285930",
+      "required": true
+    },  
+
+    "SESSION_ID": {
+      "description": "PRABATH-MD~CFlk0a6A#DhTg_VhzRKavpmC1pWz4XilXPu2lsMicJYimTYskEVs",
+      "required": true
+    },  
+
+
+    "GITHUB_AUTH_TOKEN": {
+      "description": "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",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
